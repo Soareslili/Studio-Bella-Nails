@@ -29,7 +29,11 @@ O objetivo do projeto é apresentar os serviços de um estúdio de unhas de form
 - Imagem principal estilizada com bordas arredondadas
 - Card de destaque com desconto na primeira visita
 - Avaliação com estrelas em destaque (5 estrelas)
+- Card com trabalhos realizado nos clientes
+- Depoimentos dos clientes
+- Dicas de como deve cuidar das unhas e esmalte
 - Layout responsivo e moderno
+- Footer com horários e dias de trabalho, contato e localização
 
 ---
 

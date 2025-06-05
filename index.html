@@ -14,62 +14,64 @@
 </head>
 
 <body>
+
+
     <header
-        class="fixed top-0 left-0 w-full h-16 flex items-center justify-between border-b border-[#ffc8dd] bg-white z-50 px-6 md:px-20">
-        <a class="font-bold text-2xl font-display bg-gradient-to-r from-pink-500 to-[#B84A62] to-[#F5A6E6] text-transparent bg-clip-text"
-            href="#">
-            Bella Nails
-        </a>
-
-
-        <button id="menu-btn" class="md:hidden text-4xl text-[#6A0DAD] mr-[40%]">
-            &#9776;
-        </button>
-
-
-        <nav id="nav-menu" class="hidden flex items-center gap-6 text-lg font-medium mr-20
-           md:flex md:static md:flex-row md:items-center md:space-y-0 md:space-x-10 md:bg-transparent md:shadow-none">
-
-            <a href="#Serviços" class="text-gray-700 hover:text-pink-500 transition-colors duration-200">Serviços</a>
-            <a href="#Galeria" class="text-gray-700 hover:text-pink-500 transition-colors duration-200">Galeria</a>
-            <a href="#" class="text-gray-700 hover:text-pink-500 transition-colors duration-200">Depoimentos</a>
-            <a href="#" class="text-gray-700 hover:text-pink-500 transition-colors duration-200">Dicas</a>
-            <a href="https://api.whatsapp.com/send/?phone=556899998899&text=Olá%20gostaria%20de%20saber%20mais%20sobre%20os%20doces&type=phone_number&app_absent=0"
-                class="bg-gradient-to-r from-pink-500 via-[#ec4899] to-[#F5A6E6] text-white px-4 py-1 rounded-[6px] cursor-pointer transition-transform duration-300 hover:scale-105">
-                Contato
+        class="fixed top-0 left-0 w-full z-50 bg-white shadow-md h-16 flex items-center justify-center border-b border-[#ffc8dd] px-4">
+        <div class="flex w-full max-w-7xl mx-auto items-center justify-between h-full px-4">
+            <a class="font-bold text-2xl font-display bg-gradient-to-r from-pink-500 to-[#B84A62] to-[#F5A6E6] text-transparent bg-clip-text"
+                href="#">
+                Bella Nails
             </a>
-        </nav>
+            <button id="menu-btn" class="md:hidden text-4xl text-[#6A0DAD]" aria-label="Abrir menu">
+                &#9776;
+            </button>
+            <nav id="nav-menu"
+                class="hidden flex flex-col items-center space-y-6 text-xl font-roboto font-semibold py-10 px-6 shadow-md bg-white absolute top-16 left-0 w-full
+    md:flex md:static md:flex-row md:items-center md:space-y-0 md:gap-8 md:w-auto md:py-0 md:px-0 md:shadow-none md:bg-transparent">
+                <a href="#Serviços"
+                    class="text-gray-700 hover:text-pink-500 transition-colors duration-200">Serviços</a>
+                <a href="#Galeria" class="text-gray-700 hover:text-pink-500 transition-colors duration-200">Galeria</a>
+                <a href="#Depoimentos"
+                    class="text-gray-700 hover:text-pink-500 transition-colors duration-200">Depoimentos</a>
+                <a href="#Dicas" class="text-gray-700 hover:text-pink-500 transition-colors duration-200">Dicas</a>
+                <a href="https://api.whatsapp.com/send/?phone=556899998899&text=Olá%20gostaria%20de%20saber%20mais%20sobre%20os%20doces&type=phone_number&app_absent=0"
+                    class="bg-gradient-to-r from-pink-500 via-[#ec4899] to-[#F5A6E6] text-white px-4 py-1 rounded-[6px] cursor-pointer transition-transform duration-300 hover:scale-105 hidden md:block">
+                    Contato
+                </a>
+            </nav>
+        </div>
     </header>
 
 
 
+    <main
+        class="  w-full min-h-screen bg-gradient-to-r from-pink-200 to-pink-100 flex flex-col md:flex-row items-center justify-center px-4 md:px-20 pt-20">
+        <div class="w-full md:w-auto flex flex-col items-center justify-center md:ml-20">
+            <div class="flex flex-col justify-center items-center md:items-start">
 
-    <main class="  w-full h-[100vh] bg-gradient-to-r from-pink-200 to-pink-100 flex items-center justify-between">
-        <div class="w-500 flex-col items-center justify-center ml-20">
-            <div class="flex flex-col justify-center">
+                <li class="text-[#6A0DAD] bg-white w-60 rounded-full px-3 mb-5 text-center">Beleza para suas unhas</li>
 
-                <li class="text-[#6A0DAD] bg-white w-60 rounded-full px-3 mb-[20px]">Beleza para suas unhas</li>
-
-                <h1 class="text-3xl md:text-5xl w-full md:w-[600px] font-bold text-transparent bg-clip-text mb-5"
+                <h1 class="text-3xl md:text-5xl w-full md:w-[600px] font-bold text-transparent bg-clip-text mb-5 text-center md:text-left"
                     style="background-image: linear-gradient(90deg, #ec4899, #6A0DAD, #F5A6E6);">
                     Transforme Suas Unhas em Obras de Arte
                 </h1>
-                <p class="flex flex-col md:flex-row gap-4 md:gap-6 mb-8">
+                <p class="flex flex-col md:flex-row gap-4 md:gap-6 mb-8 text-center md:text-left">
                     Na nossa esmaltaria, cuidamos das suas mãos e pés com carinho e dedicação.
                 </p>
             </div>
 
-            <div class="flex gap-4 md:gap-6 mb-8">
+            <div class="flex flex-col md:flex-row md: gap-4 md:gap-6 mb-8 md:w-auto items-center md:items-end">
                 <a href='https://api.whatsapp.com/send/?phone=556899998899&text=Olá%20gostaria%20de%20saber%20mais%20sobre%20os%20doces&type=phone_number&app_absent=0'
-                    class="px-8 py-3 rounded-md text-white transition-transform duration-300 hover:scale-105"
+                    class="px-8 py-3 rounded-md text-white transition-transform duration-300 hover:scale-105 w-full md:w-auto text-center"
                     style="background-image: linear-gradient(90deg, #6A0DAD, #F5A6E6)">Agendar Agora</a>
                 <a href="#Serviços"
-                    class="px-8 py-3 rounded-md text-white transition-transform duration-300 hover:scale-105"
+                    class="px-8 py-3 rounded-md text-white transition-transform duration-300 hover:scale-105 w-full md:w-auto text-center"
                     style="background-image: linear-gradient(90deg, #ec4899, #F5A6E6)">Nossos Serviços</a>
             </div>
 
 
-            <div class="flex md:flex gap-8 justify-center mt-5">
+            <div class="flex mr-60 items-center justify-center gap-4 mr-40 hidden md:flex">
 
                 <div class="flex flex-col items-center text-center space-y-1">
 
@@ -122,6 +124,7 @@
                 <img src="./assets/Unhas-geometricas.webp" alt="foto-principal"
                     class="w-full h-[550px] object-cover rounded-[40px]">
             </div>
+
             <div
                 class=" absolute bottom-10% left-1/5 transform -translate-x-1/2 bg-white shadow-lg rounded-xl p-4 w-[80%] flex flex-col items-center">
 
@@ -151,11 +154,7 @@
                             d="M10 15l-5.878 3.09L5.82 12.8.91 8.91l6.09-.88L10 2l2.999 6.03 6.09.88-4.91 3.89 1.698 5.29z" />
                     </svg>
 
-
-
-
                 </div>
-
 
                 <p class="text-center text-sm text-gray-700">
 
@@ -169,7 +168,7 @@
 
 
     <section
-        class="w-full h-[100vh] flex flex-col items-center justify-center py-10 px-4 bg-gradient-to-r from-[#fde6ef] to-[#fff1f7]">
+        class=" w-full min-h-screen flex flex-col items-center justify-center py-10 px-4 bg-gradient-to-r from-[#fde6ef] to-[#fff1f7]">
         <div class="flex flex-col items-center text-center mb-8">
             <h3 id="Serviços" class="font-medium text-sm py-1 px-3 bg-[#ec4899] rounded-full mb-5 ">Nossos Serviços</h3>
             <h2 class="font-bold text-4xl font-display mb-4">Serviços Exclusivos para Você</h2>
@@ -247,7 +246,8 @@
         <div class="flex flex-col items-center text-center mt-20 mb-8">
             <h3 id="Galeria" class="font-medium text-sm py-3 px-5 bg-[#ec4899] rounded-full mt-10 mb-5 ">Galeria</h3>
             <h2 class="font-bold text-4xl font-display mb-4">Nossos Trabalhos</h2>
-            <p class="text-gray-600 max-w-2xl mx-auto">Na nossa esmaltaria, cuidamos das suas mãos e pés com muito
+            <p class="text-gray-600 text-base sm:text-lg max-w-xs sm:max-w-md md:max-w-2xl mx-auto">Na nossa esmaltaria,
+                cuidamos das suas mãos e pés com muito
                 carinho e dedicação, para que você se sinta
                 linda(o) e confiante a cada visita.</p>
         </div>
@@ -323,9 +323,10 @@
     </section>
 
     <section
-        class="w-full h-[100vh] flex flex-col items-center justify-center py-10 px-4 bg-gradient-to-r from-[#fde6ef] to-[#fff1f7] mt-20">
+        class="w-full min-h-screen  flex flex-col items-center justify-center py-10 px-4 bg-gradient-to-r from-[#fde6ef] to-[#fff1f7] mt-20">
         <div class="flex flex-col items-center text-center mt-20 mb-8">
-            <h3 class="font-medium text-sm py-3 px-5 bg-[#ec4899] rounded-full mt-10 mb-5 ">Depoimentos</h3>
+            <h3 id="Depoimentos" class="font-medium text-sm py-3 px-5 bg-[#ec4899] rounded-full mt-10 mb-5 ">Depoimentos
+            </h3>
             <h2 class="font-bold text-4xl font-display mb-4">O que dizem nossos clintes</h2>
             <p class="text-gray-600 max-w-2xl mx-auto">Veja o que as nossas clientes estão dizendo sobre os nossos
                 serviços! Garantimos um atendimento especial, onde a qualidade e o conforto são prioridades.</p>
@@ -487,123 +488,90 @@
 
 
     <section>
-        <div class="flex items-center text-center justify-center mt-20 mb-8 gap-[20%]">
+        <div
+            class="w-full min-h-screen flex flex-col md:flex-row items-center justify-center text-center md:text-left mt-20 mb-8 gap-10 md:gap-[8%] px-4">
+            <div class="flex flex-col gap-1 mb-8 md:mb-2 md:text-left md:ml-10 max-w-full md:max-w-lg">
+                <li class="text-[#6A0DAD] bg-white w-60 rounded-full px-3 mb-5 mx-auto md:mx-0">Beleza para suas unhas
+                </li>
+                <h2 id="Dicas" class="text-3xl md:text-4xl font-display mb-6 font-semibold">Dicas Para Manter Suas Unhas
+                    Sempre
+                    Lindas</h2>
+                <p
+                    class="text-gray-600 mb-8 max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl mx-auto md:mx-0 text-base sm:text-lg">
+                    Aqui, damos dicas de cuidados diários para manter as suas unhas sempre bonitas e saudáveis. Siga
+                    essas recomendações entre uma visita e outra para resultados duradouros.
+                </p>
 
-            <div class="flex flex-col gap-1 mb-2 text-center ml-10">
-                <li class="text-[#6A0DAD] bg-white w-60 rounded-full px-3 mb-[20px] mr-20">Beleza para suas unhas</li>
-                <h2 class="text-4xl font-display mb-6 font-semibold">Dicas Para Manter Suas Unhas Sempre Lindas</h2>
-                <p class="text-gray-600 mb-8 w-[600px] text-center">Aqui, damos dicas de cuidados diários para manter as
-                    suas unhas sempre bonitas e saudáveis. Siga
-                    essas recomendações entre uma visita e outra para resultados duradouros.</p>
-
-                <div class="flex gap-2 mt-5">
-                    <svg class="text-[#ec4899]" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="lucide lucide-circle-check h-5 w-5 text-nails-pink mr-3 flex-shrink-0 mt-0.5"
-                        data-lov-id="src/components/CareSection.tsx:34:18" data-lov-name="CircleCheck"
-                        data-component-path="src/components/CareSection.tsx" data-component-line="34"
-                        data-component-file="CareSection.tsx" data-component-name="CircleCheck"
-                        data-component-content="%7B%22className%22%3A%22h-5%20w-5%20text-nails-pink%20mr-3%20flex-shrink-0%20mt-0.5%22%7D">
+                <div class="flex gap-2 mt-5 items-start">
+                    <svg class="text-[#ec4899] flex-shrink-0 mt-1" xmlns="http://www.w3.org/2000/svg" width="24"
+                        height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
                         <circle cx="12" cy="12" r="10"></circle>
                         <path d="m9 12 2 2 4-4"></path>
                     </svg>
-                    <p>Hidrate suas unhas e cutículas regularmente para evitar ressecamento.</p>
-
+                    <p class="text-left">Hidrate suas unhas e cutículas regularmente para evitar ressecamento.</p>
                 </div>
 
-                <div class="flex gap-2 mt-5">
-                    <svg class="text-[#ec4899]" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="lucide lucide-circle-check h-5 w-5 text-nails-pink mr-3 flex-shrink-0 mt-0.5"
-                        data-lov-id="src/components/CareSection.tsx:34:18" data-lov-name="CircleCheck"
-                        data-component-path="src/components/CareSection.tsx" data-component-line="34"
-                        data-component-file="CareSection.tsx" data-component-name="CircleCheck"
-                        data-component-content="%7B%22className%22%3A%22h-5%20w-5%20text-nails-pink%20mr-3%20flex-shrink-0%20mt-0.5%22%7D">
+                <div class="flex gap-2 mt-5 items-start">
+                    <svg class="text-[#ec4899] flex-shrink-0 mt-1" xmlns="http://www.w3.org/2000/svg" width="24"
+                        height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
                         <circle cx="12" cy="12" r="10"></circle>
                         <path d="m9 12 2 2 4-4"></path>
                     </svg>
-                    <p>Evite usar as unhas como ferramentas para abrir ou raspar objetos</p>
-
+                    <p class="text-left">Evite usar as unhas como ferramentas para abrir ou raspar objetos.</p>
                 </div>
 
-                <div class="flex gap-2 mt-5">
-                    <svg class="text-[#ec4899]" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="lucide lucide-circle-check h-5 w-5 text-nails-pink mr-3 flex-shrink-0 mt-0.5"
-                        data-lov-id="src/components/CareSection.tsx:34:18" data-lov-name="CircleCheck"
-                        data-component-path="src/components/CareSection.tsx" data-component-line="34"
-                        data-component-file="CareSection.tsx" data-component-name="CircleCheck"
-                        data-component-content="%7B%22className%22%3A%22h-5%20w-5%20text-nails-pink%20mr-3%20flex-shrink-0%20mt-0.5%22%7D">
+                <div class="flex gap-2 mt-5 items-start">
+                    <svg class="text-[#ec4899] flex-shrink-0 mt-1" xmlns="http://www.w3.org/2000/svg" width="24"
+                        height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
                         <circle cx="12" cy="12" r="10"></circle>
                         <path d="m9 12 2 2 4-4"></path>
                     </svg>
-                    <p>Mantenha as unhas sempre limpas e secas para evitar fungos</p>
-
+                    <p class="text-left">Mantenha as unhas sempre limpas e secas para evitar fungos.</p>
                 </div>
 
-                <div class="flex gap-2 mt-5">
-                    <svg class="text-[#ec4899]" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="lucide lucide-circle-check h-5 w-5 text-nails-pink mr-3 flex-shrink-0 mt-0.5"
-                        data-lov-id="src/components/CareSection.tsx:34:18" data-lov-name="CircleCheck"
-                        data-component-path="src/components/CareSection.tsx" data-component-line="34"
-                        data-component-file="CareSection.tsx" data-component-name="CircleCheck"
-                        data-component-content="%7B%22className%22%3A%22h-5%20w-5%20text-nails-pink%20mr-3%20flex-shrink-0%20mt-0.5%22%7D">
+                <div class="flex gap-2 mt-5 items-start">
+                    <svg class="text-[#ec4899] flex-shrink-0 mt-1" xmlns="http://www.w3.org/2000/svg" width="24"
+                        height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
                         <circle cx="12" cy="12" r="10"></circle>
                         <path d="m9 12 2 2 4-4"></path>
                     </svg>
-                    <p>Use luvas ao manusear produtos de limpeza</p>
-
+                    <p class="text-left">Use luvas ao manusear produtos de limpeza.</p>
                 </div>
 
-                <div class="flex gap-2 mt-5">
-                    <svg class="text-[#ec4899]" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="lucide lucide-circle-check h-5 w-5 text-nails-pink mr-3 flex-shrink-0 mt-0.5"
-                        data-lov-id="src/components/CareSection.tsx:34:18" data-lov-name="CircleCheck"
-                        data-component-path="src/components/CareSection.tsx" data-component-line="34"
-                        data-component-file="CareSection.tsx" data-component-name="CircleCheck"
-                        data-component-content="%7B%22className%22%3A%22h-5%20w-5%20text-nails-pink%20mr-3%20flex-shrink-0%20mt-0.5%22%7D">
+                <div class="flex gap-2 mt-5 items-start">
+                    <svg class="text-[#ec4899] flex-shrink-0 mt-1" xmlns="http://www.w3.org/2000/svg" width="24"
+                        height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
                         <circle cx="12" cy="12" r="10"></circle>
                         <path d="m9 12 2 2 4-4"></path>
                     </svg>
-                    <p>Não remova o esmalte com acetona pura</p>
-
+                    <p class="text-left">Não remova o esmalte com acetona pura.</p>
                 </div>
 
-
-
-                <div class="flex gap-2 mt-5">
-                    <svg class="text-[#ec4899]" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="lucide lucide-circle-check h-5 w-5 text-nails-pink mr-3 flex-shrink-0 mt-0.5"
-                        data-lov-id="src/components/CareSection.tsx:34:18" data-lov-name="CircleCheck"
-                        data-component-path="src/components/CareSection.tsx" data-component-line="34"
-                        data-component-file="CareSection.tsx" data-component-name="CircleCheck"
-                        data-component-content="%7B%22className%22%3A%22h-5%20w-5%20text-nails-pink%20mr-3%20flex-shrink-0%20mt-0.5%22%7D">
+                <div class="flex gap-2 mt-5 items-start">
+                    <svg class="text-[#ec4899] flex-shrink-0 mt-1" xmlns="http://www.w3.org/2000/svg" width="24"
+                        height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
                         <circle cx="12" cy="12" r="10"></circle>
                         <path d="m9 12 2 2 4-4"></path>
                     </svg>
-                    <p>Evite lixar excessivamente a superfície das unhas</p>
-
+                    <p class="text-left">Evite lixar excessivamente a superfície das unhas.</p>
                 </div>
                 <a href="https://wa.me/5511999999999" target="_blank"
-                    class="px-8 py-3 rounded-md text-white transition-transform duration-300 hover:scale-105 mt-6"
+                    class="px-8 py-3 rounded-md text-white transition-transform duration-300 hover:scale-105 mt-6 w-full md:w-auto text-center"
                     style="background-image: linear-gradient(90deg, #ec4899, #F5A6E6)">Agendar Agora</a>
             </div>
 
-
-            <div class="flex flex-col items-center justify-center mr-20">
-                <img src="./assets/love.avif" alt="Unhas" class="w-[550px] h-[550px] object-cover rounded-[40px] mb-4">
+            <div class="flex flex-col items-center justify-center md:mr-20 mt-10 md:mt-0">
+                <img src="./assets/love.avif" alt="Unhas"
+                    class="w-full max-w-xs sm:max-w-md md:max-w-[350px] lg:max-w-[450px] xl:max-w-[550px] h-auto object-cover rounded-[40px] mb-4">
 
                 <div
-                    class=" bg-white border-t-4 border-pink-300 shadow-md rounded-xl bottom-10% left-1/2 transform -translate-x-1/2 bg-white shadow-lg rounded-xl p-4 w-[80%] flex flex-col items-center>">
+                    class="bg-white border-t-4 border-pink-300 shadow-md rounded-xl p-4 w-full max-w-xs sm:max-w-md md:max-w-[350px] lg:max-w-[450px] xl:max-w-[550px] flex flex-col items-center mt-4">
                     <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-[#ec4899]" fill="currentColor"
                         viewBox="0 0 24 24">
                         <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 
@@ -611,17 +579,16 @@
                 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 
                 6.86-8.55 11.54L12 21.35z" />
                     </svg>
-                    <p>Cuidado Personalizado</p>
-                    <p>Cada cliente recebe atenção especial às suas necessidades</p>
+                    <p class="font-semibold mt-2">Cuidado Personalizado</p>
+                    <p class="text-center text-gray-600">Cada cliente recebe atenção especial às suas necessidades</p>
                 </div>
-
             </div>
         </div>
     </section>
 
     <footer class=" w-full text-white pt-16 pb-8 bg-[#6A0DAD]">
         <div class="container mx-auto px-4">
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 ml-10">
 
                 <div class="flex flex-col items-center md:items-start text-center md:text-left">
                     <h3 class="font-bold text-2xl font-display mb-6 text-white">Bella Nails</h3>
