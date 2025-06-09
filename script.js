@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
         navMenu.classList.toggle('hidden');
     });
 
-    // Fecha o menu ao clicar em um link (opcional)
+
     navMenu.querySelectorAll('a').forEach(link => {
         link.addEventListener('click', () => {
             if (window.innerWidth < 768) {
